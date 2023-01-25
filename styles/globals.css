@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    font-family: 'Nunito', sans-serif;
+    background-color: black;
+}
+.hide-table-wrap::-webkit-scrollbar {
+  display: none;
+}
+.gradient-green{
+    background: linear-gradient(89.74deg, #189689 8.33%, #03FBB5 99.77%);
+}
+.gradient-green-v2{
+    background: linear-gradient(89.74deg, rgba(24, 150, 137, 0.36) 8.33%, rgba(3, 251, 181, 0.36) 99.77%);
+}
+.graph-btn-gradient-v1{
+    background: linear-gradient(122.84deg, rgba(254, 174, 151, 0.5) 0%, rgba(247, 128, 157, 0.5) 100%);
+}
+.graph-btn-gradient-v2{
+    background: linear-gradient(122.84deg, rgba(171, 250, 255, 0.5) 0%, rgba(113, 173, 255, 0.5) 100%);
+}
+.graph-btn-gradient-v3{
+    background: linear-gradient(122.84deg, rgba(88, 241, 187, 0.5) 0%, rgba(68, 213, 226, 0.5) 100%);
+}
+.box-clip-path{
+    clip-path: polygon(20% 0%, 100% 0%, 80% 100%, 0% 100%);
+    -webkit-clip-path: polygon(11% 0%, 100% 0%, 89% 100%, 0% 100%);
+}
+.apexcharts-gridline {
+  stroke-dasharray: 5;
+  opacity: 0.1 !important;
+}
+
+input[type="radio"] + label span {
+    transition: background .2s,
+      transform .2s;
+}
+
+#radio1:checked + label span {
+  background: linear-gradient(122.84deg, #F7809D 0%, #F7809D 100%);
+  box-shadow: 0px 0px 0px 2px #141414 inset;
+}
+#radio2:checked + label span {
+  background: linear-gradient(122.84deg, #58F1BB 0%, #44D5E2 100%);
+  box-shadow: 0px 0px 0px 2px #141414 inset;
+}
+#radio3:checked + label span {
+  background: linear-gradient(122.84deg, #ABFAFF 0%, #71ADFF 100%);
+  box-shadow: 0px 0px 0px 2px #141414 inset;
+}
+#radio4:checked + label span {
+  background: #B5A9FE;
+  box-shadow: 0px 0px 0px 2px #141414 inset;
+}
+
+#radio1:checked + label{
+   color: #F7809D;
+}
+#radio2:checked + label{
+   color: #58F1BB;
+}
+#radio3:checked + label{
+   color: #71ADFF;
+}
+#radio4:checked + label{
+   color: #B5A9FE;
+}
