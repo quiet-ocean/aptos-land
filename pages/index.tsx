@@ -2,6 +2,7 @@ import type { NextPage } from 'next'
 import dynamic from 'next/dynamic'
 import Head from 'next/head'
 import Image from 'next/image'
+import { useEffect, useState } from 'react'
 
 import Arrow from '../assets/Arrow.svg'
 import DetailIcon from '../assets/details.svg'
@@ -35,6 +36,9 @@ const ColumnChart = dynamic(() => import('../components/Charts/Homepage/ColumnCh
 const BarChart = dynamic(() => import('../components/Charts/Homepage/BarChart'), { ssr: false })
 
 const Home: NextPage = () => {
+  useEffect(() => {
+    //0xe32a79149395a3cb3611fd30f748be07c49adb10c36e4ff7cda52708e7ac025a topaz listing table handle
+  }, [])
   return (
     <div>
       <Head>

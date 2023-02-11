@@ -1,7 +1,20 @@
 import React from 'react'
 import Chart from 'react-apexcharts'
+import { useQuery, DocumentNode } from '@apollo/react-hooks'
+import { ITokenActivity } from '../../../type/ITokenActivity'
+import { GET_TOKEN_ACTIVITIES } from '../../../services/graphql'
 
+export function useClientQuery(gqlQuery: DocumentNode ) {
+  const { loading, error, data } = useQuery<ITokenActivity>(gqlQuery)
+
+  return { loading, error, data }
+}
 export default function DateTimeChart() {
+  
+  console.log(GET_TOKEN_ACTIVITIES)
+  const { loading, error, data } = useClientQuery(GET_TOKEN_ACTIVITIES)
+  // React.useEffect(() => {
+  // }, [])
   return (
     <>
       <Chart

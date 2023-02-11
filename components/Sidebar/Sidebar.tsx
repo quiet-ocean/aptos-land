@@ -94,8 +94,8 @@ const Sidebar = () => {
                     y2='15.6415'
                     gradientUnits='userSpaceOnUse'
                   >
-                    <stop stop-color='#189689' />
-                    <stop offset='1' stop-color='#03FBB5' />
+                    <stop stopColor='#189689' />
+                    <stop offset='1' stopColor='#03FBB5' />
                   </linearGradient>
                   <linearGradient
                     id='paint1_linear_2_1099'
@@ -105,8 +105,8 @@ const Sidebar = () => {
                     y2='11.6263'
                     gradientUnits='userSpaceOnUse'
                   >
-                    <stop stop-color='#189689' />
-                    <stop offset='1' stop-color='#03FBB5' />
+                    <stop stopColor='#189689' />
+                    <stop offset='1' stopColor='#03FBB5' />
                   </linearGradient>
                   <linearGradient
                     id='paint2_linear_2_1099'
@@ -116,8 +116,8 @@ const Sidebar = () => {
                     y2='16.9793'
                     gradientUnits='userSpaceOnUse'
                   >
-                    <stop stop-color='#189689' />
-                    <stop offset='1' stop-color='#03FBB5' />
+                    <stop stopColor='#189689' />
+                    <stop offset='1' stopColor='#03FBB5' />
                   </linearGradient>
                   <linearGradient
                     id='paint3_linear_2_1099'
@@ -127,8 +127,8 @@ const Sidebar = () => {
                     y2='14.3032'
                     gradientUnits='userSpaceOnUse'
                   >
-                    <stop stop-color='#189689' />
-                    <stop offset='1' stop-color='#03FBB5' />
+                    <stop stopColor='#189689' />
+                    <stop offset='1' stopColor='#03FBB5' />
                   </linearGradient>
                 </defs>
               </svg>
